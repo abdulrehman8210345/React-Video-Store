@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Signup = () => {
   return (
-    <Container maxW={"container.xl"} p={"16"} h={"100vh"}>
+    <Container maxW={"container.xl"} p={"16"} minHh={["100vh","400"]}>
         <form >
 
         <VStack w={["full","96"]} m={"auto"} spacing={"6"} alignItems={"stretch"} >

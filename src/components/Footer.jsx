@@ -9,7 +9,9 @@ const Footer = () => {
             <VStack alignItems={"stretch"} w={"full"} p={"4"} >
                 <Heading size={"md"} textAlign={["center","left"]}>Subscribe us for more Details</Heading>
                 <HStack py={"2"}>
-                    <Input focusBorderColor='white' placeholder='Enter Email here...' borderRadius={"20px 0 0 20px"}/>
+                    <Input focusBorderColor='white'   
+                     w={["50vw","20vw"]}
+                       placeholder='Enter Email here...' borderRadius={"20px 0 0 20px"}/>
                     <Button p={"0"} borderRadius={"0 20px 20px 0"}
                          >
                         <AiOutlineSend size={"20"}/>
